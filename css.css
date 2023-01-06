@@ -1,0 +1,182 @@
+.page{
+    background-color: rgb(128, 128, 128);
+    width: 100%;
+    height: 1400px;
+}
+
+.titre{
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+    height: 100px; 
+}
+.texttitre{
+    text-align: center;
+}
+#para1{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(165, 42, 42);
+    margin-top: 50px;
+}
+#para2{
+    background-color: rgb(255, 217, 0);
+    width: 100%;
+    height: 25%;
+    margin-top: 50px;
+}
+#para3{
+    background-color: rgb(0, 255, 30);
+    width: 100%;
+    height: 25%;
+    margin-top: 50px;
+}
+.img1{
+    float: left;
+    height: 100%;
+    width: 230px;
+    transition: width 0.5s ease 0s;
+    
+}
+.text1{
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 20px;
+}
+.img2{
+    float: right;
+    height: 100%;
+    width: 230px;
+    transition: width 0.5s ease 0s;
+}
+.text2{
+    text-align: justify;
+    margin-right: 250px;
+    margin-left: 20px
+}
+#bdp{
+    background-color: rgb(0, 174, 255);
+    width: 100%;
+    height: 30%;
+    margin-top: 50px;
+}
+
+.c{
+    background-color: rgb(255, 228, 196);
+    width: 100%;
+    height: 100%;
+    float: left;
+   text-align: center;
+}
+  
+
+h2{
+    text-align: center;
+}
+ul{
+    font-size: 110%;
+}
+.question{
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.tg{ 
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+
+}
+.tg1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post{
+    width: 150px;
+    height: 130px;
+    background-color: rgb(217, 247, 118);
+    float: right;
+    margin-right: 40px;
+    margin-top: -90px;
+    box-shadow: -5px 6px 11px 0px #000;
+    transform: rotateX(8deg) rotateY(21deg) rotateZ(3deg);
+    visibility:  visible;
+    text-align: center
+    
+}
+.pp {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.menu-nav{
+    background-color: rebeccapurple;
+    padding: 2px;
+    
+}
+
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+    
+}
+nav.menu-nav ul li.btn a {
+    color: white;
+    text-decoration: none;
+    background-color: rebeccapurple;
+    padding: 9px;
+}
+nav.menu-nav ul li.btn:hover a{
+    color: rebeccapurple;
+    background-color: white;
+}
+
+@media only screen and (min-width: 10px) {
+    #para1{
+        height: auto;
+    }
+    #para2{
+        height: auto;
+    }
+    #para3{
+        height: auto;
+    }
+    .titre{
+        text-align: center;
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 1058px) {
+    #para1{
+        height: 200px;
+    }
+    #para2{
+        height: 230px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .img1 {
+        width: 100%;
+        
+    }
+    .text1 {
+        margin-left: 20px;
+    }
+    .img2 {
+        width: 100%;
+        
+    }
+    .text2 {
+        margin-right: 20px;
+    }
+    .post {
+        visibility: hidden;
+    }
+    .titre{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1134px) {
+    #para1{
+        height: auto;}
+
+}
