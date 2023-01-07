@@ -64,3 +64,18 @@ body{
 
 
 }
+@media only screen and (max-width: 354px) {
+    .menu-nav{
+        font-size: 8px;
+    }
+    .menu-nav{
+        background-color: rebeccapurple;
+        padding: 1px;
+        
+    }
+    nav.menu-nav ul li.btn a {
+        color: white;
+        text-decoration: none;
+        background-color: rebeccapurple;
+        padding: 5px;}
+}
